@@ -1,8 +1,10 @@
-//
-//  Instruments.swift
-//  Frequency Detector
-//
-//  Created by Пупка on 19.12.2024.
-//
-
-import Foundation
+struct Instruments {
+    enum TypeOfInstrument: String {
+        case guitar = "Guitar"
+        case bass = "Bass"
+        case piano = "Piano"
+        case drums = "Drums"
+    }
+    
+    static let listOfInstruments: [TypeOfInstrument] = [.guitar]
+}

@@ -48,16 +48,6 @@
 			path = "Frequency Detector";
 			sourceTree = "<group>";
 		};
-		B44450EB2D14336700DF894B /* Frequency DetectorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Frequency DetectorTests";
-			sourceTree = "<group>";
-		};
-		B44450F52D14336700DF894B /* Frequency DetectorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Frequency DetectorUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				B44450D42D14336600DF894B /* Frequency Detector */,
-				B44450EB2D14336700DF894B /* Frequency DetectorTests */,
-				B44450F52D14336700DF894B /* Frequency DetectorUITests */,
 				B44450D32D14336600DF894B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				B44450EA2D14336700DF894B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B44450EB2D14336700DF894B /* Frequency DetectorTests */,
-			);
 			name = "Frequency DetectorTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				B44450F42D14336700DF894B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B44450F52D14336700DF894B /* Frequency DetectorUITests */,
 			);
 			name = "Frequency DetectorUITests";
 			packageProductDependencies = (
